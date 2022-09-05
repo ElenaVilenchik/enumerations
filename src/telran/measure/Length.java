@@ -47,10 +47,7 @@ public class Length implements Comparable<Length> {
 	 */
 	@Override
 	public String toString() {
-		return String.valueOf(getAmount())
-										.replaceAll("\\.?0*$", "") + 
-											getUnit();
-
+		return String.valueOf(getAmount()).replaceAll("\\.?0*$", "") + getUnit();
 	}
 
 	public float getAmount() {
